@@ -3,7 +3,23 @@ title: Chrono Sprocket
 speed: 6
 bpm: 125
 orderList:
-  - 0
+  - 0   # Wind-up
+  - 1   # Engagement Q
+  - 2   # Engagement A
+  - 5   # Re-engagement Q (denser)
+  - 6   # Re-engagement A (denser)
+  - 1   # Engagement Q (reuse)
+  - 2   # Engagement A (reuse)
+  - 5   # Re-engagement Q (reuse)
+  - 6   # Re-engagement A (reuse)
+  - 1   # Engagement Q (reuse)
+  - 2   # Engagement A (reuse)
+  - 3   # Inner Mechanism I (solo)
+  - 4   # Inner Mechanism II (solo)
+  - 1   # Engagement Q (reuse)
+  - 2   # Engagement A (reuse)
+  - 6   # Re-engagement A (final confident restatement)
+  - 7   # Coda: Release
 instruments:
   - id: 1
     source: st02
@@ -40,7 +56,7 @@ instruments:
   - id: 6
     source: st01
     name: ST-01/MonoBass
-    volume: 0x20
+    volume: 0x10
     finetune: 0xb  # -5
     start: 0xac2
     length: 0x181

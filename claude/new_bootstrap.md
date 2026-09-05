@@ -127,4 +127,4 @@ Row number must be in decimal, not hex. This is due to a bug in the compiler.
 
 The row format is compatible with MarkDown tables, so each pattern should have a MarkDown table header. Headers should be 'Row', 'Ch1', 'Ch2', 'Ch3' and 'Ch4'.
 
-Write no instrument as '--'. Write no effect as '---'. Omit entirely empty lines.
+Write no note as '---'. Write no instrument as '--'. Write no effect as '---'. Omit entirely empty lines.
