@@ -1,5 +1,6 @@
 ---
-title: Chrono Sprocket
+title: 'Chrono Sprocket'
+message: ' A jaunty piano tune      with wood solo                           Written with Claude        Low Power         With interruptions     and interference    by Millie  >^._.^<~~ '
 speed: 6
 bpm: 125
 orderList:
@@ -22,8 +23,8 @@ orderList:
   - 7   # Coda: Release
 instruments:
   - id: 1
-    source: st02
-    name: ST-02/Pizza2
+    source: 'st02'
+    name: 'ST-02/Pizza2'
     volume: 0x17
     finetune: 0xd  # -3
     #source: st01
@@ -31,8 +32,8 @@ instruments:
     #volume: 0x10
     #finetune: 0x0  # 0 or +1
   - id: 2
-    source: st01
-    name: ST-01/PanFlute
+    source: 'st01'
+    name: 'ST-01/PanFlute'
     volume: 0x21
     finetune: 0xe  # -2 or -3
     start: 0x1fe5
@@ -42,34 +43,34 @@ instruments:
     #volume: 0x21  # ?
     #finetune: 0x0  # 0 or +1
   - id: 3
-    source: st01
-    name: ST-01/BassDrum1
+    source: 'st01'
+    name: 'ST-01/BassDrum1'
     volume: 0x40
   - id: 4
-    source: st01
-    name: ST-01/Snare2
+    source: 'st01'
+    name: 'ST-01/Snare2'
     volume: 0x22
   - id: 5
-    source: st01
-    name: ST-01/HiHat1
+    source: 'st01'
+    name: 'ST-01/HiHat1'
     volume: 0x1c
   - id: 6
-    source: st01
-    name: ST-01/MonoBass
+    source: 'st01'
+    name: 'ST-01/MonoBass'
     volume: 0x10
     finetune: 0xb  # -5
     start: 0xac2
     length: 0x181
   - id: 7
-    source: st01
-    name: ST-01/RichString
+    source: 'st01'
+    name: 'ST-01/RichString'
     volume: 0x12
     finetune: 0xe  # -2
     start: 0x09f6
     length: 0x10fc
   - id: 8
-    source: st02
-    name: ST-02/Glockenspiel
+    source: 'st02'
+    name: 'ST-02/Glockenspiel'
     volume: 0x28
     finetune: 0xd  # -3
 ...
